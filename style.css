@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    overflow-x:auto;
+}
+header{
+    max-width: 2300px;
+    margin: auto;
+    position: relative;
+    min-height: 30px;
+    padding: 10px 20px 5px 20px;
+    box-shadow: 0 -2px 5px 2px #42424268;
+    /* border-bottom: 1px solid #6060609d; */
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+header #logo {
+    width: 8em;
+    box-sizing: border-box;
+}
+#menu{
+    /* margin-top: 7px; */
+    width: 1.5em;
+    float: right;
+    cursor: pointer;
+}
+aside{
+    position: absolute;
+    top: -410px;
+    left: 0;
+    display:inline-block;
+    width: 100%;
+    min-height: 300px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    /* display:none; */
+    border: 1px solid #2e2d377b;
+    z-index: 3;
+
+    
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: yellow;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    z-index: -9;
+}
+.header_menu{
+    background-color: #2e2d37;
+    width: 100%;
+    height: 100px;
+}
+.main_menu{
+    padding: 10px;
+    background-color: #fff;
+}
+.main_menu h2{
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+    padding: 5px;
+}
+.main_menu ul li{
+    margin: 10px;
+    cursor: pointer;
+}
+header ul li{
+    float: left;
+    margin: 5px;
+    margin-left: 15px;
+    font-size:0.7em;
+}
+header ul{
+    margin-top: 3px;
+    display: none;
+    float: right;
+}
+.voltar_menu{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+}
+.baner{
+    margin: auto;
+    max-width: 2300px;
+    min-height: 150px;
+    /* border: 1px solid ; */
+    background-image: url('./img/icones/baner2.png');
+    
+    background-position: center;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 300px) {
+    .baner{
+        height: 200px;
+    }
+}
+@media screen and (min-width: 408px){
+    .baner{
+        height: 300px;
+    }
+}
+@media screen  and (min-width: 450px){
+    .baner{
+        background-size: cover;
+    }
+    
+}
+@media screen and (min-width: 475px){
+    #menu{
+        display: none;
+    }
+    header ul{
+        display: inline-block;
+        
+    }
+    aside{
+        display: none;
+    }
+ 
+}
+/* @media screen and (min-width: 500px) {
+
+} */
+
+@media  screen and (min-width: 930px) {
+    .baner{
+        background-image: url('./img/icones/baner1.png');
+        background-size: cover;
+    }
+    
+}
+@media  screen and (min-width: 1327px) {
+    .baner{
+        height: 400px;
+    }
+    
+}
+@media  screen and (min-width: 1723px) {
+    .baner{
+        height: 480px;
+    }
+    
+}
+@media  screen and (min-width: 2000px) {
+    .baner{
+        height: 520px;
+    }
+    
+}
