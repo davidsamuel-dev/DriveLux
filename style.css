@@ -139,7 +139,7 @@ header ul{
 
 @media  screen and (min-width: 930px) {
     .baner{
-        background-image: url('./img/icones/baner1.png');
+        background-image: url('https://i.ibb.co/JdJxLrg/baner1.png');
         background-size: cover;
     }
     
