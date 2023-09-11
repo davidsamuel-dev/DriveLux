@@ -94,17 +94,18 @@ header ul{
 }
 .baner{
     margin: auto;
-    max-width: 2300px;
-    min-height: 150px;
+    /* max-width: 1920px; */
+    width: 100%;
+    min-height: 320px;
     /* border: 1px solid ; */
     background-image: url('./img/icones/baner2.png');
     
-    background-position: center;
+    background-position: bottom;
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
 }
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
     .baner{
         height: 200px;
     }
@@ -119,8 +120,8 @@ header ul{
         background-size: cover;
     }
     
-}
-@media screen and (min-width: 475px){
+} */
+ @media screen and (min-width: 475px){
     #menu{
         display: none;
     }
@@ -132,18 +133,19 @@ header ul{
         display: none;
     }
  
-}
+} 
 /* @media screen and (min-width: 500px) {
 
 } */
 
 @media  screen and (min-width: 930px) {
     .baner{
-        background-image: url('https://i.ibb.co/JdJxLrg/baner1.png');
+        background-image: url('./img/baners/baner2.png');
         background-size: cover;
     }
     
 }
+/*
 @media  screen and (min-width: 1327px) {
     .baner{
         height: 400px;
@@ -161,7 +163,7 @@ header ul{
         height: 520px;
     }
     
-}
+} */
 main{
     max-width: 2300px;
     height: auto;
