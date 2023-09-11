@@ -34,6 +34,8 @@ body{
 .login input{
     margin-top: 10px;
     background-color: rgb(153, 153, 153);
+    padding-left: 10px;
+    color: aliceblue;
     border: none;
     height: 45px;
     outline: none;
@@ -46,6 +48,10 @@ body{
     height: auto;
 }
 
-.login::placeholder{
+input::placeholder{
+    color: aliceblue;
+    font-size: 14px;
     
+
+
 }
