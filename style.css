@@ -162,3 +162,27 @@ header ul{
     }
     
 }
+main{
+    max-width: 2300px;
+    height: auto;
+    margin: auto;
+
+}
+.busca{
+    width: 800px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    border: 1px solid #ff6600;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+input{
+    
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+}
