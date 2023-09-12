@@ -18,13 +18,32 @@ header{
     box-sizing: border-box;
     
 }
+.loguin{
+    position: absolute;
+    right: 10px;
+
+}
+header a{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
 
 header #logo {
     width: 8em;
     box-sizing: border-box;
+    position: absolute;
+    left: 10px;
+    top: 12px;
 }
 #menu{
-    /* margin-top: 7px; */
     width: 1.5em;
     float: right;
     cursor: pointer;
@@ -38,7 +57,6 @@ aside{
     min-height: 300px;
     transition: 0.5s;
     box-sizing: border-box;
-    /* display:none; */
     border: 1px solid #2e2d377b;
     z-index: 3;
 
@@ -76,14 +94,13 @@ ul{
 }
 header ul li{
     float: left;
-    margin: 5px;
     margin-left: 15px;
     font-size:0.7em;
 }
 header ul{
     margin-top: 3px;
     display: none;
-    float: right;
+
 }
 .voltar_menu{
     color: #fff;
@@ -117,9 +134,13 @@ header ul{
     }
     
 } */
- @media screen and (min-width: 475px){
+ @media screen and (min-width: 520px){
     #menu{
         display: none;
+    }
+    header a{
+        display: none;
+        background-color: #ff6600;
     }
     header ul{
         display: inline-block;
@@ -218,11 +239,11 @@ input{
     
     /* padding: 5px; */
 }
-ul{
+main ul{
     height: 280px;
     overflow: hidden;
 }
-ul li{
+main ul li{
     margin: 10px;
     min-width: 50px;
     height: 50px;
