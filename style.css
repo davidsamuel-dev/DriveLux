@@ -141,6 +141,7 @@ header ul{
     header a{
         display: none;
         background-color: #ff6600;
+        color: red;
     }
     header ul{
         display: inline-block;
