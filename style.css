@@ -228,23 +228,21 @@ input{
     font-weight: 700;
 }
 .carrosel{
-    max-width: 1000px;
-    min-height: 500px;
+    width: 500px;
+    height: 100px;
     margin: auto;
 }
-.carrosel *{
+.carrosel{
     text-align: center;
-    /* max-width: 1000px; */
-    /* height: auto; */
-    border: 1px solid;
-    
-    /* padding: 5px; */
+    border: 1px solid #000;
+
 }
-main ul{
-    height: 280px;
-    overflow: hidden;
+main {
+    height: 130px;
+
 }
-main ul li{
+.itens{
+    border: 1px solid #000;
     margin: 10px;
     min-width: 50px;
     height: 50px;
@@ -254,4 +252,8 @@ main ul li{
     display: inline;
     position: relative;
     left: 0px;
+}
+#i1{
+    position: relative;
+    lef
 }
