@@ -239,7 +239,7 @@ input{
 }
 main {
     height: 130px;
-
+    /* 192.168.05 */
 }
 .itens{
     border: 1px solid #000;
@@ -255,5 +255,18 @@ main {
 }
 #i1{
     position: relative;
-    lef
+}
+.caixa1{
+    background-color: blue;
+    max-width: 1300px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.caixa2{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+
 }
