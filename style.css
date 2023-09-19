@@ -241,15 +241,3 @@ main {
     height: 130px;
     /* 192.168.05 */
 }
-.itens{
-    border: 1px solid #000;
-    margin: 10px;
-    min-width: 50px;
-    height: 50px;
-    padding: 30px;
-    border-radius: 10px;
-    float: left;
-    display: inline;
-    position: relative;
-    left: 0px;
-}
