@@ -228,16 +228,14 @@ input{
     font-weight: 700;
 }
 .carrosel{
-    width: 500px;
-    height: 240px;
+    height: 270px;
     margin: 50px auto;
-}
-.carrosel{
     width: 900px;
     text-align: center;
-    /* border: 1px solid #000; */
-
+    /* overflow: hidden; */
+    border: 1px solid ;
 }
+
 main {
     height: 130px;
     /* 192.168.05 */
@@ -325,4 +323,59 @@ main .carrosel ul li{
 
 body{
     background-color: #e5e7eb;
+}
+main{
+    margin-top: 20px auto;
+    border: 1px solid ;
+
+}
+.rodape{
+    margin-top: 200px;
+    background-color: #ec5f0e;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: rgb(105, 102, 102);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
 }
