@@ -292,43 +292,49 @@ main .carrosel ul li{
 }
 #marca3{
 
-    background-image: url('./img/Saved_Pictures/16369893010426315314.jpg');
+    background-image: url('./img/Saved_Pictures/5178613251452067004.jpg');
     
 }
 #marca4{
 
-    background-image: url('./img/Saved_Pictures/1823280294486950469.jpg');
+    background-image: url('./img/Saved_Pictures/16369893010426315314.jpg');
     
 }
-#mais+buscados1{
+/* #mais_buscados1{
 
-    background-image: url('./img/carros/chevrolet-s10.f469afdcd8152520a337\ \(1\).webp');
+    background-image: url('./img/carros/honda-fit.jpg');
     
 }
-#mais+buscados2{
+#mais_buscados2{
 
-    background-image: url('./img/carros/honda-civic.c62a732cc4675bee8407.webp');
+    background-image: url('./img/carros/toyota-corola.jpg');
     
 }
-#mais+buscados3{
+#mais_buscados3{
 
-    background-image: url('./img/carros/toyota-corolla.d5026ea9e77ad2172d30.webp');
+    background-image: url('./img/carros/volkswagen-gol.jpg');
     
 }
-#mais+buscados4{
+#mais_buscados4{
 
-    background-image: url('./img/carros/volkswagen-golf.d952cb4852d975c19cdf\ \(1\).webp');
+    background-image: url('./img/carros/volkswagen-golf.jpg');
     
+} */
+#buscados li{
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    /* background-position: bottom;
+    padding-top: 90px;
+    margin-bottom: 30px;
+    background-size: contain;
+    background-repeat: no-repeat; */
 }
 
 body{
     background-color: #e5e7eb;
 }
-/* main{
-    margin-top: 20px auto;
-    border: 1px solid ;
 
-} */
 .rodape{
     margin-top: 200px;
     background-color: #ec5f0e;
