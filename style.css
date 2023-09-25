@@ -338,10 +338,13 @@ main .carrosel ul li{
     bottom: 30px;
     left: -10px;
 }
-.marca_buscados{
-
+.marca_buscado{
+    font-size: 40px;
+    color: #000;
 }
 .carro_buscado{
+    font-size: 40px;
+    color: #000;
     
 }
 
