@@ -1,29 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-body{
-    overflow-x:auto;
+
+body {
+    overflow-x: auto;
 }
-header{
+
+header {
     margin: auto;
     position: relative;
     min-height: 30px;
     padding: 10px 20px 5px 20px;
     box-shadow: 0 -2px 5px 2px #42424268;
-    /* border-bottom: 1px solid #6060609d; */
     overflow: hidden;
     box-sizing: border-box;
-    
+
 }
-.loguin{
+
+.loguin {
+    display: inline-block;
     position: absolute;
     right: 10px;
 
 }
-header a{
+
+header a {
     position: absolute;
     right: 10px;
     top: 15px;
@@ -31,8 +35,10 @@ header a{
     font-weight: 700;
     color: #000;
     text-decoration: none;
+    display: inline-block;
 }
-header{
+
+header {
     text-align: center;
 }
 
@@ -43,16 +49,18 @@ header #logo {
     left: 10px;
     top: 12px;
 }
-#menu{
+
+#menu {
     width: 1.5em;
     float: right;
     cursor: pointer;
 }
-aside{
+
+aside {
     position: absolute;
     top: -410px;
     left: 0;
-    display:inline-block;
+    display: inline-block;
     width: 100%;
     min-height: 300px;
     transition: 0.5s;
@@ -60,9 +68,10 @@ aside{
     border: 1px solid #2e2d377b;
     z-index: 3;
 
-    
+
 }
-.container{
+
+.container {
     width: 100%;
     height: 600px;
     background-color: yellow;
@@ -71,44 +80,53 @@ aside{
     top: 0;
     z-index: -9;
 }
-.header_menu{
+
+.header_menu {
     background-color: #2e2d37;
     width: 100%;
     height: 100px;
 }
-.main_menu{
+
+.main_menu {
     padding: 10px;
     background-color: #fff;
 }
-.main_menu h2{
+
+.main_menu h2 {
     text-align: center;
 
 }
-ul{
+
+ul {
     list-style: none;
     padding: 5px;
 }
-.main_menu ul li{
+
+.main_menu ul li {
     margin: 10px;
     cursor: pointer;
 }
-header ul li{
+
+header ul li {
     float: left;
     margin-left: 15px;
-    font-size:0.7em;
+    font-size: 0.7em;
 }
-header ul{
+
+header ul {
     margin-top: 3px;
     display: none;
 
 }
-.voltar_menu{
+
+.voltar_menu {
     color: #fff;
     padding: 10px;
     cursor: pointer;
     float: right;
 }
-.baner{
+
+.baner {
     margin: auto;
     width: 100%;
     height: 320px;
@@ -118,86 +136,55 @@ header ul{
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* @media screen and (min-width: 300px) {
-    .baner{
-        height: 200px;
-    }
-}
-@media screen and (min-width: 408px){
-    .baner{
-        height: 300px;
-    }
-}
-@media screen  and (min-width: 450px){
-    .baner{
-        background-size: cover;
-    }
-    
-} */
- @media screen and (min-width: 520px){
-    #menu{
+@media screen and (min-width: 520px) {
+    #menu {
         display: none;
     }
+
+    header a {
+        /* display: none; */
+    }
+
+    header ul {
+        display: inline-block;
+
+    }
+
+    aside {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 520px) {
     header a{
         display: none;
-        background-color: #ff6600;
-        color: red;
     }
-    header ul{
-        display: inline-block;
-        
-    }
-    aside{
-        display: none;
-    }
- 
-} 
-/* @media screen and (min-width: 500px) {
+}
 
-} */
-
-@media  screen and (min-width: 930px) {
-    .baner{
+@media screen and (min-width: 930px) {
+    .baner {
         background-image: url('./img/baners/baner2.png');
         background-size: contain;
         height: 17vw;
     }
 
-    
+
 }
-/*
-@media  screen and (min-width: 1327px) {
-    .baner{
-        height: 400px;
-    }
-    
-}
-@media  screen and (min-width: 1723px) {
-    .baner{
-        height: 480px;
-    }
-    
-}
-@media  screen and (min-width: 2000px) {
-    .baner{
-        height: 520px;
-    }
-    
-} */
-main{
+
+main {
     max-width: 2300px;
     min-height: 900px;
     margin: auto;
-    padding: 0 20px ;
-    /* border:1px solid #2e2d37; */
+    padding: 0 20px;
 
 }
-.busca{
+
+.busca {
     max-width: 900px;
     height: 80px;
     background-color: #fff;
     border-radius: 10px;
-    margin: 0 auto ;
+    margin: 0 auto;
     border: 1px solid #2e2d3721;
     position: relative;
     top: -60px;
@@ -205,14 +192,16 @@ main{
     padding: 20px;
     box-sizing: border-box;
 }
-input{
-    
+
+input {
+
     padding: 10px;
     border-radius: 8px;
     min-width: 400px;
     border: 1px solid #2e2d373c;
 }
-.verofertas{
+
+.verofertas {
     display: inline-block;
     width: 200px;
     padding: 12px;
@@ -227,133 +216,145 @@ input{
     font-size: 0.9em;
     font-weight: 700;
 }
-.carrosel{
+
+.carrosel {
     height: 270px;
     margin: 50px auto;
     width: 900px;
     text-align: center;
-    /* overflow: hidden; */
-    /* border: 1px solid ; */
 }
 
 main {
     height: 130px;
     /* 192.168.05 */
 }
-main .carrosel ul{
+
+main .carrosel ul {
     display: flex;
 }
-main .carrosel ul li{
-    /* border: 1px solid #000; */
+
+main .carrosel ul li {
     width: 250px;
     height: 200px;
     margin: 10px;
     float: left;
     border-radius: 15px;
-    background-size:cover ;
+    background-size: cover;
     background-position: center;
 
 }
-.carrosel h2{
+
+.carrosel h2 {
     text-align: left;
     color: #4d4c55c6;
+    font-size: 1.3em;
 }
+
 /* Categorias */
-#car1{
+#car1 {
 
     background-image: url('./img/Saved_Pictures/184974a4-7651-4785-9472-a6e76d1ae4ff_CardDesktop.jpg');
-    
+
 }
-#car2{
+
+#car2 {
 
     background-image: url('./img/Saved_Pictures/980c1c63-9e76-490e-b460-af82933530ae_CardDesktop.jpg');
-    
+
 }
-#car3{
+
+#car3 {
 
     background-image: url('./img/Saved_Pictures/664b1902-94f8-4627-8c70-fdbc902ebfe5_CardDesktop.jpg');
-    
+
 }
-#car4{
+
+#car4 {
 
     background-image: url('./img/Saved_Pictures/e913354e-550e-41db-a790-82895af31a13_CardDesktop.jpg');
-    
+
 }
+
 /* carros mais buscados */
-#marca1{
+#marca1 {
 
     background-image: url('./img/Saved_Pictures/1004427065481294599.jpg');
-    
+
 }
-#marca2{
+
+#marca2 {
 
     background-image: url('./img/Saved_Pictures/13426067065086245248.jpg');
-    
+
 }
-#marca3{
+
+#marca3 {
 
     background-image: url('./img/Saved_Pictures/5178613251452067004.jpg');
-    
+
 }
-#marca4{
+
+#marca4 {
 
     background-image: url('./img/Saved_Pictures/16369893010426315314.jpg');
-    
-}
-/* #mais_buscados1{
 
-    background-image: url('./img/carros/honda-fit.jpg');
-    
 }
-#mais_buscados2{
 
-    background-image: url('./img/carros/toyota-corola.jpg');
-    
+#categorias ul li {
+    position: relative;
 }
-#mais_buscados3{
 
-    background-image: url('./img/carros/volkswagen-gol.jpg');
-    
+#categorias ul li p {
+    margin: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 1px 1px 10px  #000;
 }
-#mais_buscados4{b
 
-    background-image: url('./img/carros/volkswagen-golf.jpg');
-    
-} */
-#buscados li{
+#buscados li {
+    text-align: left;
     width: 200px;
-    height: 250px;
+    height: 240px;
     background-color: #fff;
     position: relative;
     overflow: hidden;
-
-    /* background-position: bottom;
-    padding-top: 90px;
-    margin-bottom: 30px;
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
-#buscados li img{
+
+#buscados li img {
     position: absolute;
     bottom: 30px;
     left: -10px;
 }
-.marca_buscado{
-    font-size: 1.5em;
+
+.marca_buscado {
+    margin: 20px 30px 0 20px;
+    font-size: 1.1em;
     font-weight: 600;
     color: #000;
 }
-.carro_buscado{
-    font-size: 40px;
+
+.carro_buscado {
+    margin: 1px 20px 30px 20px;
+    font-size: 1.6em;
     color: #000;
-    
+    color: #ff6600;
+    font-weight: 600;
+}
+#marcas li{
+    border-radius: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-size: 180px;
 }
 
-body{
+body {
     background-color: #e5e7eb;
 }
 
-.rodape{
+.rodape {
     margin-top: 200px;
     background-color: #ec5f0e;
     color: white;
@@ -362,44 +363,52 @@ body{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.rodape a{
+
+.rodape a {
     text-decoration: none;
     color: white;
 }
-.rodape p{
+
+.rodape p {
     margin-bottom: 5px;
 }
-.rodape-div{
+
+.rodape-div {
     display: flex;
     flex-wrap: wrap;
-    width:100%;
+    width: 100%;
     margin: auto;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
 }
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
     display: flex;
     width: calc(100% / 4 - 20px);
     padding: 10px;
 }
-.rodape span{
+
+.rodape span {
     font-size: 20px;
     color: white;
 }
-.rodape-direitos{
+
+.rodape-direitos {
     width: calc(100% - 20px);
     background-color: rgb(105, 102, 102);
     padding: 10px;
     margin: 0px;
     text-align: center;
 }
+
 /*mobile*/
 @media (max-width: 768px) {
-    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
         width: calc(50% - 20px);
         padding: 10px;
     }
-    .rodape-div{
+
+    .rodape-div {
         padding: 60px 0px 40px 0px;
     }
 }
