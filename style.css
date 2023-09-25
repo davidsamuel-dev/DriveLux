@@ -339,7 +339,8 @@ main .carrosel ul li{
     left: -10px;
 }
 .marca_buscado{
-    font-size: 40px;
+    font-size: 1.5em;
+    font-weight: 600;
     color: #000;
 }
 .carro_buscado{
