@@ -93,6 +93,7 @@ ul {
 }
 
 header ul li {
+  cursor: pointer;
   float: left;
   margin-left: 15px;
   font-size: 0.7em;
@@ -198,6 +199,9 @@ input {
   border-radius: 8px;
   width: 180px;
   border: 1px solid #2e2d373c;
+}
+a{
+  text-decoration: none;
 }
 
 .verofertas {
