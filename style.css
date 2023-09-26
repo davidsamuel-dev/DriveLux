@@ -129,11 +129,13 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 @media screen and (max-width: 700px) {
   .carrosel ul {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (min-width: 520px) {
   #menu {
     display: none;
@@ -147,15 +149,18 @@ header ul {
     display: none;
   }
 }
+
 @media screen and (max-width: 520px) {
   header a {
     display: none;
   }
 }
+
 @media screen and (min-width: 490px) {
   .verofertas {
     width: 100%;
   }
+
   .input {
     width: 100%;
   }
@@ -285,9 +290,14 @@ main .carrosel ul li {
 #marca4 {
   background-image: url("./img/Saved_Pictures/16369893010426315314.jpg");
 }
+
 .carrosel ul {
   display: flex;
   justify-content: space-evenly;
+}
+.carrosel ul li:hover{
+  transition: 0.5s;
+  box-shadow: 1px 1px 20px 6px #2e2d374f;
 }
 
 #categorias ul li {
@@ -333,6 +343,7 @@ main .carrosel ul li {
   color: #ff6600;
   font-weight: 600;
 }
+
 #marcas li {
   /* border-radius: 50%; */
   /* padding: 20px; */
@@ -385,6 +396,11 @@ body {
 .rodape span {
   font-size: 20px;
   color: white;
+  padding-bottom: 20px;
+
+}
+.rodape p:hover{
+  text-decoration:underline;
 }
 
 .rodape-direitos {
@@ -397,6 +413,7 @@ body {
 
 /*mobile*/
 @media (max-width: 768px) {
+
   .rodape-div-1,
   .rodape-div-2,
   .rodape-div-3,
@@ -417,6 +434,7 @@ body {
   list-style: none;
   height: auto;
 }
+
 #container li {
   padding: 8px;
   box-sizing: border-box;
@@ -437,6 +455,7 @@ body {
   width: 1410px;
   height: auto;
 }
+
 #container li p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -445,6 +464,7 @@ body {
   color: rgb(252, 252, 252);
   padding: 15px;
 }
+
 #container {
   overflow: hidden;
   /* border: 1px solid; */
