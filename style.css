@@ -295,9 +295,10 @@ main .carrosel ul li {
   display: flex;
   justify-content: space-evenly;
 }
-.carrosel ul li:hover{
+
+.carrosel ul li:hover {
   transition: 0.5s;
-  box-shadow: 1px 1px 20px 6px #2e2d374f;
+  box-shadow: 1px 1px 10px 9px #2e2d372b;
 }
 
 #categorias ul li {
@@ -399,8 +400,9 @@ body {
   padding-bottom: 20px;
 
 }
-.rodape p:hover{
-  text-decoration:underline;
+
+.rodape p:hover {
+  text-decoration: underline;
 }
 
 .rodape-direitos {
@@ -471,4 +473,42 @@ body {
   display: flex;
   /* justify-content: space-evenly; */
   /* flex-wrap: wrap; */
+}
+
+#container_laranja {
+
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  height: auto;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  >div {
+    margin: 10px;
+  }
+  >:hover{
+    background-color: #fff;
+  }
+  
+}
+
+
+.caixa_laranja {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+
+  background-color: #ff6600
+}
+.caixa_laranja:hover{
+  color: #ff6600;
+  font-weight: 600;
 }
