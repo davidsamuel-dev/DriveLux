@@ -355,10 +355,10 @@ body {
 }
 
 .rodape {
-    margin-top: 200px;
-    background-color: #ec5f0e;
+    margin-top: 300px;
+    background-color: rgb(46, 45, 55);
     color: white;
-    height: auto;
+    /* height: 400px; */
     width: 100%;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -395,7 +395,7 @@ body {
 
 .rodape-direitos {
     width: calc(100% - 20px);
-    background-color: rgb(105, 102, 102);
+    background-color: #FF6600;
     padding: 10px;
     margin: 0px;
     text-align: center;
@@ -411,4 +411,40 @@ body {
     .rodape-div {
         padding: 60px 0px 40px 0px;
     }
+}
+
+#container{
+    max-width: 880px;
+    list-style: none;
+
+}
+#container li{
+
+    padding: 8px;
+    box-sizing: border-box;
+    width: 155px;
+    height: 60px;
+    border-radius: 15px;
+    float: left;
+    background-color: #FF6600;
+    margin-bottom: 30px;
+}
+
+#section_container{
+    max-width: 880px;
+
+    margin: auto;
+    width: 1410px;
+    height: 120px;
+}
+#container li p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(252, 252, 252);
+    padding: 15px;
+
+
 }
