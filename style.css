@@ -33,6 +33,7 @@ header a {
   color: #000;
   text-decoration: none;
   display: inline-block;
+  
 }
 
 header {
@@ -65,16 +66,6 @@ aside {
   border: 1px solid #2e2d377b;
   z-index: 3;
 }
-
-/* .container { */
-/* width: 100%; */
-/* height: 600px; */
-/* background-color: yellow; */
-/* opacity: 0.5; */
-/* position: absolute; */
-/* top: 0; */
-/* z-index: -9; */
-/* } */
 
 .header_menu {
   background-color: #2e2d37;
@@ -207,7 +198,6 @@ input {
   border-radius: 8px;
   width: 180px;
   border: 1px solid #2e2d373c;
-  /* margin-bottom: 10px; */
 }
 
 .verofertas {
@@ -233,13 +223,7 @@ input {
   text-align: center;
 }
 
-main {
-  /* 192.168.05 */
-}
 
-main .carrosel ul {
-  /* display: flex; */
-}
 
 main .carrosel ul li {
   width: 250px;
@@ -303,6 +287,7 @@ main .carrosel ul li {
 
 #categorias ul li {
   position: relative;
+  cursor: pointer;
 }
 
 #categorias ul li p {
@@ -322,6 +307,7 @@ main .carrosel ul li {
   background-color: #fff;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #buscados li img {
@@ -335,6 +321,7 @@ main .carrosel ul li {
   font-size: 1.1em;
   font-weight: 600;
   color: #000;
+  
 }
 
 .carro_buscado {
@@ -343,13 +330,14 @@ main .carrosel ul li {
   color: #000;
   color: #ff6600;
   font-weight: 600;
+  
 }
 
+
 #marcas li {
-  /* border-radius: 50%; */
-  /* padding: 20px; */
   box-sizing: border-box;
   background-size: 220px;
+  cursor: pointer;
 }
 
 body {
@@ -357,10 +345,8 @@ body {
 }
 
 .rodape {
-  margin-top: 150px;
   background-color: rgb(46, 45, 55);
   color: white;
-  /* height: 400px; */
   width: 100%;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -449,10 +435,7 @@ body {
 }
 
 #section_container {
-  /* overflow: hidden; */
-
   max-width: 700px;
-
   margin: auto;
   width: 1410px;
   height: auto;
@@ -466,15 +449,6 @@ body {
   color: rgb(252, 252, 252);
   padding: 15px;
 }
-
-#container {
-  overflow: hidden;
-  /* border: 1px solid; */
-  display: flex;
-  /* justify-content: space-evenly; */
-  /* flex-wrap: wrap; */
-}
-
 #container_laranja {
 
   display: flex;
@@ -505,7 +479,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   color: #fff;
-
+  cursor: pointer;
   background-color: #ff6600
 }
 .caixa_laranja:hover{
