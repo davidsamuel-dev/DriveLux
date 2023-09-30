@@ -98,6 +98,9 @@ header ul li {
   margin-left: 15px;
   font-size: 0.7em;
 }
+header ul li:hover{
+  color: #ff6600;
+}
 
 header ul {
   margin-top: 3px;
