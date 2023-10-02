@@ -12,9 +12,8 @@ header {
     padding: 10px 0;
 }
 
-header_img{
-    width: 30px;
-    height: 30px;
+h1{
+    text-align: center;
 }
 
 .cart-table {
@@ -55,8 +54,8 @@ header_img{
 
 .checkout-button {
     background-color: #e08012;
-    color: white;
-    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 18px;
