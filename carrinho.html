@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrinho de Compras - Loja de Carros</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-table th {
+    background-color: #f2f2f2;
+}
+
+.cart-table img {
+    max-width: 100px;
+    height: auto;
+}
+
+.remove-button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-summary {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.checkout-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
     
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="car1.jpg" alt="Carro 1"></td>
+                <td>Carro Modelo 1</td>
+                <td>R$ 50,000</td>
+                <td>2</td>
+                <td>R$ 100,000</td>
+                <td><button class="remove-button">Remover</button></td>
+            </tr>
+            <tr>
+                <td><img src="car2.jpg" alt="Carro 2"></td>
+                <td>Carro Modelo 2</td>
+                <td>R$ 60,000</td>
+                <td>1</td>
+                <td>R$ 60,000</td>
+                <td><button class="remove-button">Remover</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section class="cart-summary">
+        <h2>Resumo do Carrinho</h2>
+        <p>Total: R$ 160,000</p>
+        <button class="checkout-button">Finalizar Compra</button>
+    </section>
 </body>
 </html>
