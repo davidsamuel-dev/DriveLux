@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras - Drivelux</title>
     <link rel="stylesheet" href="carrinho.css">
+    <script src="./script.js"></script>
 </head>
-<body>
+<body onload="loated()">
     <header>
         <img src="img/icones/DRIVE_LUX.png" alt="">
     </header>
@@ -16,38 +17,60 @@
             <tr>
                 <th>Produtos</th>
                 <th>Descrição do produto</th>
-                <th>Preço</th>
+                <th>Preço R$</th>
                 <th>Quantidade</th>
-                <th>Subtotal</th>
+                <th>Subtotal R$</th>
                 <th>Ação</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr id="carro1">
                 <td><img src="img/carros/chevrolet.jpg" alt="Carro 1"></td>
                 <td>S10</td>
-                <td>R$ 200,000</td>
-                <td>2</td>
-                <td>R$ 400,000</td>
-                <td><button class="remove-button">Remover</button></td>
+                <td>300000.00</td>
+                <td>
+                    <select name="" id="s10" onchange="pegar_valor1()">
+                        <option value="0">0</option>
+                        <option selected value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+                <td><p vlaue="20000.00" id="resultado1">20000.00</p></td>
+                <td><button class="rmvb"  onclick="apagar_car1()">Remover</button></td>
             </tr>
-            <tr>
+            <tr id="carro2">
                 <td><img src="img/carros/toyota-corola.jpg" alt="Carro 2"></td>
                 <td>Corola</td>
-                <td>R$ 100,000</td>
-                <td>1</td>
-                <td>R$ 100,000</td>
-                <td><button class="remove-button">Remover</button></td>
+                <td>120000.00</td>
+                <td>
+                    <select name="" id="corola" onchange="pegar_valor2()">
+                        <option value="0">0</option>
+                        <option selected value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+                <td><p value="456000.00" id="resultado2">456000.00</p></td>
+                <td><button class="rmvb" onclick="apagar_car2()">Remover</button></td>
             </tr>
         </tbody>
     </table>
 
     <section class="cart-summary">
         <h2>Resumo do Carrinho</h2>
-        <p>Total: R$ 500,000</p>
-        <button class="checkout-button">Finalizar Compra</button>
+        <p>Total: R$ <span id="total">0</span></p>
+        <a href="./pagamento.html"><button class="checkout-button">Finalizar Compra</button></a>
     </section>
+    <script>
     
+    </script>
 
 </body>
 </html>
